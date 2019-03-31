@@ -1,0 +1,33 @@
+
+public class ClasssObject {
+
+
+		public static void main(String[] args) {
+		staff Child = new staff();
+		
+		Child.learn();
+		Child.name();
+		
+		System.out.println(Child.name);
+		System.out.println(Child.learn);
+		
+		}
+
+		}
+class university{
+	String name = "Nugaal"
+	String learn = "Computer","BBA","sharea","Health",;
+	
+	
+	
+	
+	
+	
+	void learn() {
+		System.out.println(" Welcome nugal universty");
+	}
+	void Learn() {
+		System.out.println(" These All subject has enable now");
+	}
+	
+}

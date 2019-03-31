@@ -1,0 +1,43 @@
+
+public class ClasssObject {
+
+
+		public static void main(String[] args) {
+		Mather Child = new Mather();
+		Child.eet();
+		Child.working();
+		Child.learn();
+		Child.sleep();
+		
+		System.out.println(Child.name);
+		System.out.println(Child.weight);
+		System.out.println(Child.age);
+		System.out.println(Child.learn);
+		System.out.println(Child.sleep);
+		}
+
+		}
+class Mather{
+	String name = "Asha";
+	String learn = "Computer";
+	String sleep = "at midnight";
+	double  weight = 160;
+	int age = 12;
+	
+	
+	
+	
+	void eet() {
+		System.out.println("She is eeting");
+	}
+	void working() {
+		System.out.println(" She is working your house");
+	}
+	void learn() {
+		System.out.println(" She is learng Computer");
+	}
+	void sleep() {
+		System.out.println(" When Fineshed All worked is sleeping");
+	}
+	
+}
