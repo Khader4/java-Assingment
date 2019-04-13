@@ -1,0 +1,36 @@
+public class constructor {
+
+	
+
+	     String name;
+	     int id = b;
+	     String model = "";
+	     String color = "Green";
+	     String Type = d;
+	     
+	     void macalim(String a, String m, int d ) {
+	     name = a;
+	     id = b;
+	     model = m;
+	     Type = d;
+	     
+	     System.out.println("the values are: "+ a + "\n"+ m+ "\n" + d+ "\n");
+	     }
+	     void macalim(String r, String g, int o, int p) {
+	    	 name = r;
+	    	 id = b;
+	    	 model = m;
+	    	 Type = d;
+	    		
+	         System.out.println("the values are: "+ r+ "\n"+ "\n" + g + "\n"+ o+ "\n" + p);
+
+	     }
+	 
+		public static void main(String[] args) {
+			constructor khader = new constructor();
+			khader.name = "Ahmed";
+			khader.model = 25m;
+			khader.macalim("Hodan", "hd", 888);
+			khader.macalim("Asia", "cmd", 8, 8888);
+		
+		}
